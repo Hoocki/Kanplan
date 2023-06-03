@@ -12,7 +12,7 @@ class Login extends React.Component {
     this.onChangePassword = this.onChangePassword.bind(this);
 
     this.state = {
-      username: "",
+      username: "", 
       password: "",
       loading: undefined
     };
