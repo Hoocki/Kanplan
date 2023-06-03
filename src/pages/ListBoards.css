@@ -1,0 +1,83 @@
+body.dark-theme {
+    background-color: #222222;
+    color: #ffffff;
+  }
+  
+  
+  .board-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: start;
+  }
+  
+  .board-card {
+    background-color: #327be7;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
+    max-width: 100%;
+    width: 350px; /* Фиксированная ширина доски */
+    height: 150px; /* Фиксированная высота доски */
+    transform: scale(0.9);
+    transform-origin: top;
+    position: relative;
+  }
+  
+  .board-name {
+    text-align: center;
+    font-size: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .board-name-input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    background-color: transparent;
+  }
+  
+  .delete-button,
+  .redirect-button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+    width: calc(50% - 10px);
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .delete-button {
+    right: 10px;
+    background-color:#ff5511;  /* Измените цвет на тёплый синий */
+  }
+  
+  .redirect-button {
+    left: 10px;
+    background-color:  #1155ff; /* Измените цвет на тёплый красный */
+    margin-right: 5px;
+  }
+  
+  .redirect-button + .delete-button {
+    right: 10px;
+    left: unset;
+  }
+  
+  .dark-theme-button {
+    background-color: #666666;
+  }
+  

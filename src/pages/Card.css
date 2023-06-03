@@ -1,0 +1,102 @@
+  body.dark-theme {
+    background-color: #222222;
+    color: #ffffff;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .card-title {
+    text-align: center;
+  }
+  
+  
+  .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .form-group.labels-container {
+    border: none;
+  }  
+
+  .labels-container {
+    height: 200px; /* Высота контейнера с метками */
+    overflow-y: auto; /* Включение вертикальной прокрутки */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .labels-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .labels-list div {
+    background-color: #3c22d1;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn-success {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    margin-left: 0.33rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-left: 0.33rem;
+  }
+ 
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+
+  .added-label {
+    color: green;
+    margin-left: 8px;
+    font-weight: bold;
+  }
+  
+  
+  
