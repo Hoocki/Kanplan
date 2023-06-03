@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import auth from "../../actions/auth";
 
 class Login extends React.Component {
-  constructor(props) {
+  constructor(props) { 
     super(props);
     this.handleLogin = this.handleLogin.bind(this);
     this.onChangeName = this.onChangeName.bind(this);
